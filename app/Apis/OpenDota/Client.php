@@ -15,7 +15,7 @@ class Client extends BaseClient
 
         preg_match('/\[U\:\d\:(\d+)\]/', $id, $matches);
 
-        return $matches[1];
+        return isset($matches[1]) ? $matches[1] : null;
     }
 
     protected function getUrl()
