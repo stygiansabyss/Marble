@@ -31,6 +31,7 @@ class RouteServiceProvider extends ServiceProvider
         \JumpGate\Users\Http\Routes\Logout::class,
         \JumpGate\Users\Http\Routes\Registration::class,
 
+        \App\Services\SignUps\Http\Routes\Weekly::class,
     ];
 
     public function __construct($app)

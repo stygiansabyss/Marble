@@ -32,6 +32,11 @@ class MenuComposer
             $link->name = 'Home';
             $link->url  = route('home');
         });
+
+        $leftMenu->link('sign_up', function (Link $link) {
+            $link->name = 'Weekly Sign Up';
+            $link->url  = route('sign-up.weekly');
+        });
     }
 
     /**

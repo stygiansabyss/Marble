@@ -193,6 +193,7 @@ return [
         SocialiteProviders\Manager\ServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         Camroncade\Timezone\TimezoneServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
     ],
 
     /*

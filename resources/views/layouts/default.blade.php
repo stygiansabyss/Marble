@@ -7,7 +7,11 @@
   <body>
     <div id="app">
       <div class="container-fluid" id="container">
-        <div class="row">
+        <div class="row" id="banner">
+          <img src="/images/Vector_Dogs.png">
+        </div>
+
+        <div class="container-fluid" id="menu">
           @include('layouts.partials.menu')
         </div>
 
