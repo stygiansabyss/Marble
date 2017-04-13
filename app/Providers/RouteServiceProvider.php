@@ -24,6 +24,13 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected $providers = [
         \App\Http\Routes\Home::class,
+
+        \JumpGate\Users\Http\Routes\Activation::class,
+        \JumpGate\Users\Http\Routes\Authentication::class,
+        \JumpGate\Users\Http\Routes\ForgotPassword::class,
+        \JumpGate\Users\Http\Routes\Logout::class,
+        \JumpGate\Users\Http\Routes\Registration::class,
+
     ];
 
     public function __construct($app)

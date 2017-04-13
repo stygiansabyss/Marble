@@ -173,6 +173,8 @@ return [
          */
         JumpGate\ViewResolution\Providers\ViewServiceProvider::class,
         JumpGate\Menu\MenuServiceProvider::class,
+        JumpGate\Users\Providers\UsersServiceProvider::class,
+        Kodeine\Acl\AclServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -188,9 +190,9 @@ return [
          * Package Service Providers...
          */
         Laracasts\Utilities\JavaScript\JavaScriptServiceProvider::class,
+        SocialiteProviders\Manager\ServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         Camroncade\Timezone\TimezoneServiceProvider::class,
-        Barryvdh\Debugbar\ServiceProvider::class,
     ],
 
     /*
