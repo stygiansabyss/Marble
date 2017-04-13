@@ -20,6 +20,7 @@
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "^5.2",
         "socialiteproviders/twitch": "^3.0",
+        "syntax/steam-api": "^2.0",
         "zarlach/laravel-twitch-api": "^1.3"
     },
     "require-dev": {

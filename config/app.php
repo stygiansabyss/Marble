@@ -194,6 +194,7 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         Camroncade\Timezone\TimezoneServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
+        Syntax\SteamApi\SteamApiServiceProvider::class,
     ],
 
     /*

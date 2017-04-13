@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "93472fdbfa3b0e87157418c39a938331",
-    "content-hash": "fb5d691eaf085e24f2fd51542e6c1134",
+    "hash": "e94411b3815f1254443ad4990cf88b70",
+    "content-hash": "f97c13b0579240e0b59f4a0c0f20268d",
     "packages": [
         {
             "name": "camroncade/timezone",
@@ -1545,6 +1545,54 @@
             "time": "2017-04-09 17:49:47"
         },
         {
+            "name": "nukacode/database",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/NukaCode/database.git",
+                "reference": "f1ed3a188c617afeebcf8c70b38baead1302492c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/NukaCode/database/zipball/f1ed3a188c617afeebcf8c70b38baead1302492c",
+                "reference": "f1ed3a188c617afeebcf8c70b38baead1302492c",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^5.0"
+            },
+            "require-dev": {
+                "benconstable/phpspec-laravel": "~2.0",
+                "fzaninotto/faker": "~1.4",
+                "henrikbjorn/phpspec-code-coverage": "~0.2",
+                "mockery/mockery": "0.9.*",
+                "phpspec/phpspec": "~2.1",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NukaCode\\Database\\": "src/NukaCode/Database"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stygian",
+                    "email": "stygian.warlock.v2@gmail.com"
+                },
+                {
+                    "name": "Riddles",
+                    "email": "riddles@dev-toolbox.com"
+                }
+            ],
+            "description": "Database helpers for Laravel sites.",
+            "time": "2016-08-24 14:04:32"
+        },
+        {
             "name": "paragonie/random_compat",
             "version": "v2.0.10",
             "source": {
@@ -2720,6 +2768,50 @@
                 "dump"
             ],
             "time": "2017-04-12 14:14:56"
+        },
+        {
+            "name": "syntax/steam-api",
+            "version": "2.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/syntaxerrors/Steam.git",
+                "reference": "f0a91a3f1d75b24d100895ae3d7c9d5bb679df01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/syntaxerrors/Steam/zipball/f0a91a3f1d75b24d100895ae3d7c9d5bb679df01",
+                "reference": "f0a91a3f1d75b24d100895ae3d7c9d5bb679df01",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.0",
+                "laravel/framework": "^5.0",
+                "nukacode/database": "^1.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.3",
+                "orchestra/testbench": "~3.0",
+                "phpunit/phpunit": "~3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Syntax\\SteamApi\\": "src/Syntax/SteamApi"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stygian",
+                    "email": "stygian.warlock.v2@gmail.com"
+                }
+            ],
+            "description": "A steam-api client for Laravel 5.",
+            "time": "2017-02-03 15:49:04"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
